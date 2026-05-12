@@ -109,7 +109,7 @@ while (matchfound) {
 
 //game finished, print the remaining hands
 
-cout << "Alice's cards:" << endl;
+cout << endl << "Alice's cards:" << endl;
 for (auto it = alice.begin(); it != alice.end(); ++it) {
   cout << *it << endl; //print the card itself by dereferncing the pointer to it
 }
